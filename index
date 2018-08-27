@@ -1,0 +1,23 @@
+<html>
+<header>
+<link rel="stylesheet" type="text/css" href="website-theme-main.css">
+</header>
+<body>
+
+<div>
+<div class="header">
+<p>
+This is a test header
+</p>
+</div>
+
+<div class="main-content">
+<p>
+this is a test content area
+<p>
+</div>
+
+</div>
+
+</body>
+</html>
