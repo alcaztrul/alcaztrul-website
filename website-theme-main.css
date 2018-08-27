@@ -2,18 +2,18 @@
   font-family: verdana;
 }
 
-mcwrap {
+.mcwrap {
   margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
 }
 
-header {
+.header {
   font-color: orange;
 }
 
-main-content {
+.main-content {
   font-size: 12px;
 }
 
