@@ -2,16 +2,26 @@
   font-family: verdana;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 .mcwrap {
   margin: auto;
-  width: 50%;
+  width: 90%;
   border: 3px solid green;
   padding: 10px;
 }
 
 .header {
   font-color: orange;
+  background-color: grey;
   border: 3px solid blue;
+}
+
+.headerbutton {
+  background-color: darkgrey;
+  border-style: ridge;
 }
 
 .main-content {
@@ -20,5 +30,5 @@
 }
 
 p {
-  font-size: 20px;
+  font-size: 11px;
 }
