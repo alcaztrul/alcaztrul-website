@@ -1,5 +1,5 @@
 * {
-  font-family: verdana;
+  font-family: sans-serif;
 }
 
 body {
@@ -8,22 +8,28 @@ body {
 
 .mcwrap {
   margin: auto;
-  width: 90%;
-  border: 3px solid green;
-  padding: 10px;
+  margin-top: 25px;
+  width: 80%;
 }
 
-.header {
+.headerwrap {
   background-color: grey;
-  border: 3px solid blue;
+  width: auto;
+  height: auto;
+}
+
+.headermain {
+  float: inherit;
 }
 
 .headerbutton {
   width: 25%;
+  height: 35px;
   background-color: darkgrey;
-  border-style: ridge;
-  font-style: bold;
-  font-color: purple;
+  font-style: purple bold;
+  float: left;
+  text-align:center;
+  margin: auto;
 }
 
 .main-content {
