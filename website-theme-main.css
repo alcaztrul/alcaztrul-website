@@ -34,7 +34,18 @@ body {
 
 .main-content {
   font-size: 12px;
-  border: 3px dotted red;
+  padding: 10px;
+  background-color: lightblue;
+  border-left: solid darkgrey 2px;
+  border-right: solid darkgrey 2px;
+}
+
+.footer {
+  height: 15px;
+  text-align: center;
+  background-color: darkgrey;
+  font-style: bold;
+  font-size: 13px;
 }
 
 p {
