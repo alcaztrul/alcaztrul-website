@@ -54,29 +54,10 @@
 </div>
 
 <div class="main-content">
-<p>
-  <input type="file" name="main-content-text"
-            id="main-content-text">
-    <br>
 
-    <pre id="output"></pre>
+  <object type="text" data="main-content-text.txt">
 
-    <script type="text/javascript">
-        document.getElementById('main-content-text')
-            .addEventListener('change', function() {
-
-            var fr=new FileReader();
-            fr.onload=function(){
-                document.getElementById('output')
-                        .textContent=fr.result;
-            }
-
-            fr.readAsText(this.files[0]);
-        })
-    </script>
-
-
-</p>
+  </object>
 
 <p>
   This is where a website will pop up when I get better at coding and when I have time to actually code a fully functional website.
