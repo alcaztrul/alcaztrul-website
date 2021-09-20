@@ -55,7 +55,27 @@
 
 <div class="main-content">
 <p>
-  Bla bla bla vänstersidan bla bla bla luftPASTEJER
+  <input type="file" name="main-content-text"
+            id="main-content-text">
+    <br>
+
+    <pre id="output"></pre>
+
+    <script type="text/javascript">
+        document.getElementById('main-content-text')
+            .addEventListener('change', function() {
+
+            var fr=new FileReader();
+            fr.onload=function(){
+                document.getElementById('output')
+                        .textContent=fr.result;
+            }
+
+            fr.readAsText(this.files[0]);
+        })
+    </script>
+
+
 </p>
 
 <p>

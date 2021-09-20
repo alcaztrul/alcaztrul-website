@@ -1,0 +1,7 @@
+<p>
+Hello!
+
+I'm looking to expand on my coding skills, as a side-project between my studies/work in mechanical engineering and product development.
+This will be the place where I do my coding experiments.
+
+</p>
