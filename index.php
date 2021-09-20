@@ -55,9 +55,9 @@
 
 <div class="main-content">
 
-  <object type="text" data="main-content-text.txt">
-
-  </object>
+<p>
+  <?php include('main-content-text.txt'); ?>
+</p>
 
 <p>
   This is where a website will pop up when I get better at coding and when I have time to actually code a fully functional website.
